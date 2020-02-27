@@ -80,6 +80,5 @@ public class NewsController : MonoBehaviour
         Detail.transform.GetChild(1).GetChild(0).GetComponent<Image>().sprite = newsImage[Index];
         Detail.transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = newsDetail[Index].Replace("<p>","").Replace("</p>","").Replace("<br />"," <br>");
     }
-
 }
 
